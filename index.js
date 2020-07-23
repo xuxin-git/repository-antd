@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { DatePicker } from 'antd';
+import { DatePicker} from 'antd';
+import TabStuAntd from './src/table/stuAntd'
+
+
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
       <h1>AntDesign Demo</h1>
       <hr /><br />
       <DatePicker />
+      <hr/>
+      <TabStuAntd/>
+      
     </div>
   );
 }
